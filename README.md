@@ -1,0 +1,1 @@
+# IRCBotForFF14LimitILBotAccount
