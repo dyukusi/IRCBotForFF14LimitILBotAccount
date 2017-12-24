@@ -11,7 +11,7 @@ public class Logger {
 
     void channelMessage(String channel, String sender, String login, String hostname, String message) throws IOException {
         String formattedMessage = String.format(
-                "%s %s(%s): %s",
+                "%s %s %s : %s",
                 this.getLogMessagePrefix(),
                 sender,
                 hostname,
@@ -22,7 +22,7 @@ public class Logger {
 
     void privateMessage(String sender, String login, String hostname, String message) throws IOException {
         String formattedMessage = String.format(
-                "%s %s(%s): %s",
+                "%s %s %s : %s",
                 this.getLogMessagePrefix(),
                 sender,
                 hostname,
